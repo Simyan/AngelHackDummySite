@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+.navbar.navbar-default.navbar-fixed-top.navbar-inverse{
+	background:#0064AC;
+}
+.title {
+	color: #fff;
+	border:1px solid #fff;
+	padding: 5px;
+	border-radius: 3px;
+}
+.products_title{
+	color: #fff;
+}
+
+.heading{
+	padding-left:410px;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	color: #0064AC;
+}
+.container{
+	padding-top: 0px;
+}
+.img-rounded{
+	width: 100px;
+}
+.title:hover{
+	color: #999;
+}
+.itemName{
+	padding-top: 10px;
+}
+.dropdown ul li a:hover{
+	background: #EFD685;
+}
+.nav.navbar-nav.navbar-right li a:focus {
+	background: #0064AC;
+}
+.navbar-inverse .navbar-nav>.active>
+a,.navbar-inverse .navbar-nav>.active>
+a:focus,.navbar-inverse .navbar-nav>.active>
+a:hover{
+	background: #F1BA0A;
+}
+
+.tailclass{
+	padding-top: 20px;
+	padding-left: 215px;
+}
+
+.col-md-8{
+	padding-left: 400px;
+}
+.btn-primary{
+	margin-top: 15px;}
+
+.img-rounded{
+	margin-top: 8px;
+}
+	
+.well-sm{
+	background:#F1BA0A;
+}
+
+#textColor{
+	color:#0064AC;
+}
+#textColor1{
+	color:#0064AC;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#confirm{
+	
+	margin-top: 100px;
+
+}

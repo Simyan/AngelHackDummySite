@@ -1,0 +1,208 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compactible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<title>Gems</title>
+</head>
+
+<body style="padding-top: 50px">
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+		<a class="navbar-brand" href="#"><span class="title">Gems</span></a></div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="topFixedNavbar1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="products_title">Products</span><span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Rings</a></li>
+            <li><a href="#">Earrings</a></li>
+            <li><a href="#">Pendants</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Dealers</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+<h2 class="heading">Shopping Cart</h2>
+
+<div class="col-md-8">
+<div class="well">
+<div class="container">
+<div class="col">
+<div class="col-md-2">
+<img src="images/image_beau.png" class="img-rounded img-responsive" alt="Placeholder image">
+	</div><!--col-md-2-->
+	<div class="col-md-2">
+	<p class="itemName">Beau</p>
+	<p>91853</p>
+	<p class="ringSize"><strong>Ring Size(US)</strong> 6.5</p>
+	</div><!--col-md-5-->
+	<div class="col-md-2" id="textColor">
+	    <h4>AED 499</h4>
+	</div><!--col-md-5-->
+</div><!--col-->
+</div>
+<div class="tailclass">
+	  <p class="tail_save_for_letter"><a href="css/style.css">Save for Later | Delete</a></p>
+	</div>
+</div><!--container-->
+	</div>
+
+
+<div class="col-md-8">
+<div class="well">
+<div class="container">
+<div class="col">
+<div class="col-md-2">
+<img src="images/image_indigo.png" class="img-rounded img-responsive" alt="Placeholder image">
+	</div><!--col-md-2-->
+	<div class="col-md-2">
+	<p class="itemName">Indigo</p>
+	<p>80848</p>
+	<p class="ringSize"><strong>Ring Size(US)</strong> 6.0</p>
+	</div><!--col-md-5-->
+	<div class="col-md-2" id="textColor1">
+	    <h4>AED 629</h4>
+	</div><!--col-md-5-->
+</div><!--col-->
+</div>
+<div class="tailclass">
+	  <p class="tail_save_for_letter"><a href="css/style.css">Save for Later | Delete</a></p>
+	</div>
+</div><!--container-->
+	</div>
+
+
+
+
+	
+
+<div class="col-md-8">
+<div class="well well-sm">
+<div class="container">
+<div class="col">
+<div class="col-md-1">
+  <h3 class="text-right">Total:</h3>
+</div><!--col-md-2-->
+	<div class="col-md-3">
+	  <h3 class="text-left">AED <strong>1128</strong></h3>
+	</div><!--col-md-5-->
+	<div class="col-md-2">
+	<button type="button" class="btn btn-primary" id="btn" onClick="CreateChirp()">Pay Now</button>
+	</div><!--col-md-5-->
+</div><!--col-->
+</div>
+</div><!--container-->
+	</div>
+
+
+
+
+<script src="js/jquery-1.11.3.min.js"></script><script src="js/jquery-1.11.3.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="js/jquery-1.11.3.min.js"></script></body>
+
+
+
+<script type="text/javascript" src="chirpSDK.min.js"> </script>
+<script  type="text/javascript">	
+
+/*var identifiers = {
+    standard: {
+      identifier: "parrotbill",
+      identifierEncoded: "parrotbilllllahcm4"
+    },
+    ultrasonic: {
+      identifier: 'abcde123',
+      identifierEncoded: '123abcdef633c7'
+    }
+  };*/
+
+//alert("go");
+
+//Demo chirp
+
+//Initializing
+var chirpsdk = new ChirpSDK("mrepHsIsKKoGANMk3Gb5FkvPO");  
+chirpsdk.promise.then(function(res) {
+  console.info("Authentication successful!");
+}).catch(function(err) {
+  console.error(err);
+});
+
+//chirpsdk.setProtocolNamed("ultrasonic");
+
+function playOfflineChirp(identifierEncoded) {
+	alert("HII");
+    chirpsdk.chirp(new Chirp(identifierEncoded))
+      .then(function () {
+        showMessage('Finished playing chirp: ' + identifierEncoded);
+      })
+      .catch(showMessage);
+  }
+
+
+//Creating new chirp
+var CreateChirp = function() {
+
+	document.getElementById("btn").innerHTML = "Processing...";
+	
+var data =
+{
+	account_no: 1334456600,
+	vendor: 'gems.com',
+	amount: 1128 
+
+    //name: 'Martin Finch',
+    //age: 34,
+    //created_at: '2016-07-16T19:20:30.45'
+}
+
+
+//var chirp = new Chirp({foo: 'bar'});
+/*var chirp = new Chirp(data);
+chirp.promise.then(function() {
+	alert("WOOHOO");
+  console.log("Chirp created!");
+}).catch(function(err) {
+	alert("BOOHOO");
+  console.error(err);
+})*/
+
+/*var chirp = new Chirp("3210567f");
+chirpsdk.setProtocolNamed("ultrasonic");
+chirpsdk.chirp(chirp);*/
+
+
+//chirpsdk.setProtocolNamed("ultrasonic");
+
+chirpsdk.chirp(new Chirp(data)) //Was parrotbill
+.then(function(){
+  console.log("Chirp played!")
+}).catch(function(err) {
+  console.error(err);
+});
+
+}
+
+
+
+
+</script>
+</html>
